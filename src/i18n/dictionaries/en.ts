@@ -7,6 +7,7 @@ export const en: Dictionary = {
     experience: "Experience",
     gallery: "Gallery",
     contact: "Contact",
+    overview: "About the Site",
     checkAvailability: "Check Availability",
   },
   common: {
@@ -258,6 +259,170 @@ export const en: Dictionary = {
     whatsappUs: "WhatsApp us",
     rights: "All rights reserved.",
     crafted: "Crafted for unforgettable desert stays.",
+  },
+  overview: {
+    metaTitle: "About the Site — Executive Overview",
+    metaDescription:
+      "A clear, non-technical guide to the Desert Pearl website: what it includes, how it is built, and how it sells and markets the hotel intelligently.",
+    header: {
+      eyebrow: "Product overview",
+      title: "Your website — ready to work for you",
+      description:
+        "This page explains in plain language what we built, why it matters, and how the site turns visitors into guests.",
+    },
+    purpose: {
+      eyebrow: "Why we built this",
+      title: "Not just a pretty site — a marketing engine",
+      lead:
+        "This website is Desert Pearl's digital storefront. It creates a luxury impression, builds trust, and drives action: availability checks, WhatsApp or a phone call.",
+      points: [
+        {
+          title: "A royal first impression",
+          description:
+            "Premium design, quality imagery and elegant typography — so every visitor immediately feels they have found something special.",
+        },
+        {
+          title: "Building trust",
+          description:
+            "Guest reviews, ratings, real photos and clear information — so guests feel confident before they book.",
+        },
+        {
+          title: "Driving action",
+          description:
+            "Prominent booking buttons on every page, a simple form, WhatsApp and phone — so visitors never get lost on the way to booking.",
+        },
+      ],
+    },
+    structure: {
+      eyebrow: "Site structure",
+      title: "Six pages, each with a clear job",
+      description:
+        "The site is built like a sales journey: excite the visitor, present the product, then close with a contact.",
+      pages: [
+        {
+          title: "Home",
+          description:
+            "The front door — emotional story, reviews, suite previews, urgency messaging and a booking call-to-action.",
+        },
+        {
+          title: "Suites",
+          description:
+            "Full room catalogue — prices, photos, benefits and a booking button on every suite.",
+        },
+        {
+          title: "Experience",
+          description:
+            "Tells the stay story — dinners under stars, sunrises, spa — and strengthens the desire to book.",
+        },
+        {
+          title: "Gallery",
+          description:
+            "Photos organised by category — rooms, outdoor and events — so visitors can picture themselves there.",
+        },
+        {
+          title: "Contact",
+          description:
+            "Availability form, WhatsApp, phone and one-tap Waze navigation to the exact location.",
+        },
+        {
+          title: "About the Site",
+          description:
+            "This page — explains to managers and clients what the site does and why it is built this way.",
+        },
+      ],
+    },
+    technology: {
+      eyebrow: "How it is built",
+      title: "Modern technology — in plain language",
+      description:
+        "The site runs on the same modern foundation used by major brands. That means speed, reliability and room to grow.",
+      items: [
+        {
+          title: "Fast and light",
+          description:
+            "Pages load quickly on mobile too. Images are automatically optimised — no long waits.",
+        },
+        {
+          title: "Works on every device",
+          description:
+            "Desktop, tablet and phone — the layout adapts. A sticky booking bar stays visible on mobile.",
+        },
+        {
+          title: "Hebrew and English",
+          description:
+            "Fully bilingual — Hebrew by default (right-to-left) and English in one click.",
+        },
+        {
+          title: "Search-ready",
+          description:
+            "Structure that Google and AI search engines understand — headings, descriptions, sitemap and structured data.",
+        },
+        {
+          title: "Easy to update",
+          description:
+            "Prices, copy and images live in separate files — content changes without touching the design.",
+        },
+        {
+          title: "Secure and stable",
+          description:
+            "No exposed database, no passwords on the site — fewer risks, more stability.",
+        },
+      ],
+    },
+    marketing: {
+      eyebrow: "Smart marketing",
+      title: "How the site sells and markets itself",
+      description:
+        "Every design element is chosen to move the visitor forward — without feeling like an ad.",
+      tactics: [
+        {
+          title: "Calls to action everywhere",
+          description:
+            "\"Check Availability\", \"WhatsApp\" and \"Call\" appear in the header, home page, every suite and the mobile footer bar.",
+        },
+        {
+          title: "Sense of scarcity",
+          description:
+            "Messages like \"only 6 suites\" and \"dates fill fast\" — encouraging early booking without aggressive pressure.",
+        },
+        {
+          title: "Social proof",
+          description:
+            "Real reviews with names, locations and stay type — building trust before the decision.",
+        },
+        {
+          title: "Emotional storytelling",
+          description:
+            "Instead of feature lists — moments: sunset, stars, breakfast. That is what sells luxury getaways.",
+        },
+        {
+          title: "Transparent pricing",
+          description:
+            "Nightly rate in shekels, visible on every suite card — no surprises, no friction.",
+        },
+        {
+          title: "Instant access",
+          description:
+            "WhatsApp in one tap, phone in one tap, Waze for navigation — guests never hunt for how to reach you.",
+        },
+      ],
+    },
+    highlights: {
+      eyebrow: "By the numbers",
+      title: "What you get in the package",
+      stats: [
+        { value: "6", label: "Full pages + one page per suite" },
+        { value: "2", label: "Languages — Hebrew and English" },
+        { value: "3", label: "Suites with gallery and FAQ" },
+        { value: "∞", label: "Booking touchpoints across the site" },
+      ],
+    },
+    closing: {
+      title: "Ready to present, ready to publish",
+      description:
+        "The site is built to run in the cloud (Vercel) — automatic deploys from Git, a real web address, and updates in one click.",
+      cta: "Back to home",
+    },
   },
   notFound: {
     eyebrow: "Lost in the dunes",

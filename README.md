@@ -136,6 +136,27 @@ src/
 
 `src/components/contact/ContactForm.tsx` ships with a simulated submit. To go live, wire `handleSubmit` to an API route or a form service (Resend, Formspree, a CRM, etc.).
 
-## Deploy
+## Deploy to Vercel
 
-Deploy to [Vercel](https://vercel.com/) (recommended) or any Node host. Set `siteConfig.url` in `src/lib/site.ts` to your production domain so canonical URLs, the sitemap and structured data resolve correctly.
+The site is ready for [Vercel](https://vercel.com/) out of the box.
+
+### One-time setup
+
+1. Push this repo to GitHub: `https://github.com/Yaeli0301/Desert-Pearl-Suites`
+2. Go to [vercel.com/new](https://vercel.com/new) and import the repository.
+3. Vercel auto-detects **Next.js** — no extra configuration needed.
+4. Click **Deploy**. Your site will be live at `https://your-project.vercel.app`.
+
+### Environment variable (optional)
+
+| Variable | Description |
+| -------- | ----------- |
+| `NEXT_PUBLIC_SITE_URL` | Production URL for canonical links, sitemap and SEO. Vercel can set this automatically when you connect a custom domain. |
+
+If not set, the site falls back to `https://www.desertpearlsuites.com` in `src/lib/site.ts`.
+
+### After deploy
+
+- Add a custom domain in Vercel → **Settings → Domains**
+- Wire the contact form in `src/components/contact/ContactForm.tsx` to a live API or service
+- Replace Unsplash placeholder images in `src/data/*` with your own photos

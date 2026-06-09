@@ -9,7 +9,10 @@ export const siteConfig = {
   description:
     "Desert Pearl Suites is a boutique hotel in the Israeli desert offering private luxury suites for couples, romantic getaways, celebrations and unforgettable moments.",
   // Used for canonical URLs, sitemap and structured data.
-  url: "https://www.desertpearlsuites.com",
+  // Override in production via NEXT_PUBLIC_SITE_URL (set automatically on Vercel).
+  url:
+    process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ??
+    "https://www.desertpearlsuites.com",
   locale: "en_US",
   location: {
     region: "Mitzpe Ramon, Negev Desert, Israel",
@@ -44,6 +47,7 @@ export const navLinks = [
   { href: "/experience", key: "experience" },
   { href: "/gallery", key: "gallery" },
   { href: "/contact", key: "contact" },
+  { href: "/overview", key: "overview" },
 ] as const;
 
 /** Pre-built WhatsApp deep link with a friendly default message. */

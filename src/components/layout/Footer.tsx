@@ -118,7 +118,7 @@ export function Footer({
         <div className="container-luxe flex flex-col items-center justify-between gap-3 py-6 text-xs text-cream/65 sm:flex-row">
           <p>
             © {year}{" "}
-            {locale === "he" ? "דרבן פרל סוויטות" : siteConfig.name}.{" "}
+            {siteConfig.name}.{" "}
             {dict.footer.rights}
           </p>
           <p>{dict.footer.crafted}</p>

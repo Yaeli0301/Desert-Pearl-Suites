@@ -35,7 +35,7 @@ const entries: GalleryEntry[] = [
     span: "tall",
     alt: {
       en: "Luxury suite bedroom with desert view at Desert Pearl Suites",
-      he: "חדר שינה בסוויטת יוקרה עם נוף מדברי בדרבן פרל",
+      he: "חדר שינה בסוויטת יוקרה עם נוף מדברי ב-Desert Pearl",
     },
   },
   {

@@ -1,0 +1,23 @@
+/**
+ * Design tokens — the single source of truth for raw brand values.
+ * Tailwind maps these into utilities via tailwind.config.ts.
+ */
+:root {
+  /* Color */
+  --color-ink: #0a0a0a;
+  --color-cream: #f8f5f2;
+  --color-gold: #c6a15b;
+  --color-gold-soft: #dcc18a;
+  --color-text-soft: #6e6862;
+
+  /* Elevation */
+  --shadow-luxe: 0 30px 80px -40px rgba(10, 10, 10, 0.55);
+  --shadow-soft: 0 20px 50px -30px rgba(10, 10, 10, 0.35);
+
+  /* Motion */
+  --ease-luxe: cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* Glass */
+  --glass-bg: rgba(248, 245, 242, 0.08);
+  --glass-border: rgba(248, 245, 242, 0.18);
+}

@@ -46,7 +46,7 @@ export function Header({
     >
       <nav className="container-luxe relative flex h-24 items-center justify-between sm:h-28">
         {/* Left: desktop nav / mobile menu button */}
-        <ul className="hidden items-center gap-7 lg:flex">
+        <ul className="hidden max-w-[42%] items-center gap-4 xl:gap-6 lg:flex">
           {navLinks.map((link) => {
             const href = localePath(locale, link.href);
             const active =

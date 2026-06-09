@@ -11,6 +11,7 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { MobileStickyCTA } from "@/components/layout/MobileStickyCTA";
 import { FloatingCta } from "@/components/layout/FloatingCta";
+import { OverviewInvite } from "@/components/layout/OverviewInvite";
 import { NoiseOverlay } from "@/components/effects/NoiseOverlay";
 import { siteConfig } from "@/lib/site";
 import {
@@ -24,13 +25,13 @@ import { getDictionary } from "@/i18n/dictionaries";
 // Latin (English) typefaces.
 const playfair = Playfair_Display({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  weight: ["400", "600"],
   variable: "--font-serif-en",
   display: "swap",
 });
 const jost = Jost({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600"],
+  weight: ["400", "500"],
   variable: "--font-sans-en",
   display: "swap",
 });
@@ -126,6 +127,7 @@ export default function LocaleLayout({
         <Footer locale={locale} dict={dict} />
         <MobileStickyCTA locale={locale} dict={dict} />
         <FloatingCta locale={locale} dict={dict} />
+        <OverviewInvite locale={locale} dict={dict} />
       </body>
     </html>
   );

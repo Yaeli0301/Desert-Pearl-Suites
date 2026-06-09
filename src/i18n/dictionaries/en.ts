@@ -7,7 +7,7 @@ export const en: Dictionary = {
     experience: "Experience",
     gallery: "Gallery",
     contact: "Contact",
-    overview: "About the Site",
+    overview: "Overview",
     checkAvailability: "Check Availability",
   },
   common: {
@@ -422,6 +422,16 @@ export const en: Dictionary = {
       description:
         "The site is built to run in the cloud (Vercel) — automatic deploys from Git, a real web address, and updates in one click.",
       cta: "Back to home",
+    },
+    invite: {
+      badge: "Personal invitation",
+      eyebrow: "Prepared especially for you",
+      title: "A private tour of your website",
+      description:
+        "Noticed the details? That is no accident. We prepared a special presentation that explains how the site is built, how it sells, and why it stands apart.",
+      cta: "View the presentation",
+      dismiss: "Maybe later",
+      close: "Close",
     },
   },
   notFound: {

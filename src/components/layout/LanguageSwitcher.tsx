@@ -38,6 +38,7 @@ export function LanguageSwitcher({
           <Link
             href={pathFor(target)}
             hrefLang={target}
+            prefetch
             aria-current={target === locale ? "true" : undefined}
             className={cn(
               "transition-colors",

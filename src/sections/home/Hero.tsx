@@ -15,9 +15,9 @@ export function Hero({ locale, dict }: { locale: Locale; dict: Dictionary }) {
   const t = dict.home.hero;
 
   const rise = (delay: number) => ({
-    initial: reduceMotion ? false : { opacity: 0, y: 26 },
+    initial: reduceMotion ? false : { opacity: 0, y: 18 },
     animate: { opacity: 1, y: 0 },
-    transition: { duration: 0.9, delay, ease },
+    transition: { duration: 0.45, delay, ease },
   });
 
   return (

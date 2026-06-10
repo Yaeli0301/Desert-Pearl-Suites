@@ -24,12 +24,78 @@ export const en: Dictionary = {
   },
   home: {
     hero: {
-      eyebrow: "Boutique Hotel · Negev Desert, Israel",
-      title: "Moments You Don't Just Experience — You Remember",
+      eyebrow: "Luxury Boutique Hotel · Mitzpe Ramon, Israel",
+      title: "Private Luxury Suites in the Desert — Moments You'll Remember Forever",
       subtitle:
-        "A private luxury escape designed for intimacy, beauty, and stays that stay with you long after you leave.",
+        "A boutique hotel of 6 designer suites with private pools, gourmet breakfast and views over Ramon Crater. The perfect stay for romance, celebration or a quiet escape from the world.",
+      highlights: [
+        "6 private suites",
+        "Pool in every suite",
+        "Gourmet breakfast",
+        "Crater views",
+      ],
       ctaPrimary: "Check Availability",
       ctaSecondary: "Explore the Suites",
+    },
+    hotelIntro: {
+      srLabel: "About the hotel",
+      headline: "Welcome to Desert Pearl — a boutique hotel in the desert",
+      subline:
+        "Not a brochure site or a rental villa — a real hotel with a team, service and suites ready to welcome you.",
+      highlights: [
+        { value: "6", label: "Luxury suites" },
+        { value: "9.6", label: "Guest rating" },
+        { value: "Mitzpe Ramon", label: "Hotel location" },
+        { value: "24/7", label: "Personal service" },
+      ],
+      rating: "Average rating",
+      reviews: "reviews",
+    },
+    guestTypes: {
+      eyebrow: "Who it's for",
+      title: "A different stay for everyone — the same level of luxury",
+      description:
+        "Whether you seek romance, celebration, calm or adventure — our hotel adapts to you.",
+      audiences: [
+        {
+          title: "Couples & honeymoons",
+          description:
+            "Intimate suites with outdoor starlit tubs, private dinners and total privacy — romance without compromise.",
+        },
+        {
+          title: "Anniversaries & celebrations",
+          description:
+            "A designed stage for big moments: floral styling, starlit tables, chilled champagne and a team that handles every detail.",
+        },
+        {
+          title: "Peace & digital detox",
+          description:
+            "Absolute quiet, endless views and zero pressure. Perfect for those who need to breathe, recharge and return to themselves.",
+        },
+        {
+          title: "Nature & desert lovers",
+          description:
+            "Direct access to Ramon Crater trails, dune-top sunsets and stargazing from your suite — nature at your window.",
+        },
+        {
+          title: "Families & friends",
+          description:
+            "Spacious suites with a private courtyard and pool — a family weekend or friends' getaway in full hotel comfort.",
+        },
+        {
+          title: "Luxury & spa experience",
+          description:
+            "In-suite treatments, chef's meals, fine wines and everything that defines a truly luxurious getaway.",
+        },
+      ],
+    },
+    attractions: {
+      eyebrow: "What's nearby",
+      title: "The desert is only the beginning",
+      description:
+        "The hotel sits in the heart of Mitzpe Ramon — the gateway to the great Negev. Here is what awaits just outside your door.",
+      closing:
+        "Our team will gladly arrange tours, field dinners and personalised experiences — just ask at reception.",
     },
     story: {
       eyebrow: "A story told in a day",
